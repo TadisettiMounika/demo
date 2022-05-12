@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="checkFlow" doc:id="b09023d9-4dea-4221-a013-42375e063d4b" >
 		<http:listener doc:name="Listener" doc:id="6807f798-6a2a-44b0-928b-0945751dc07f" config-ref="HTTP_Listener_config" path="/check"/>
-		<set-payload value='#["Message checked succesfully"]' doc:name="Set Payload" doc:id="41a97aaa-026e-40f7-8f06-6a049ab75615" />
+		<set-payload value='#["HELOOOOOOOOOOOOOOOOOOOOO"]' doc:name="Set Payload" doc:id="41a97aaa-026e-40f7-8f06-6a049ab75615" />
 	</flow>
 </mule>
